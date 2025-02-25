@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.atteneder.gltfast": {
-      "version": "file:/Users/yelnazrysbek/Downloads/glTFast-openupm",
+      "version": "file:C:/Users/yrysbek/Downloads/glTFast-openupm/glTFast-openupm",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -43,6 +43,27 @@
     },
     "com.meta.xr.sdk.audio": {
       "version": "72.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.avatars": {
+      "version": "35.0.0-pre.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.meta.xr.sdk.core": "69.0.1",
+        "com.meta.xr.sdk.platform": "69.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.9",
+        "com.meta.xr.sdk.avatars.sample.assets": "35.0.0-pre.3"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.avatars.sample.assets": {
+      "version": "35.0.0-pre.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -226,6 +247,22 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.sysroot": {
+      "version": "2.0.10",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.sysroot.linux-x86_64": {
+      "version": "2.0.9",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.10"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.terrain-tools": {
       "version": "5.0.5",
       "depth": 0,
@@ -278,6 +315,16 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.toolchain.win-x86_64-linux-x86_64": {
+      "version": "2.0.10",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.10",
+        "com.unity.sysroot.linux-x86_64": "2.0.9"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ugui": {
       "version": "1.0.0",
       "depth": 0,
@@ -294,6 +341,37 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.legacyinputhelpers": {
+      "version": "2.1.10",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.management": {
+      "version": "4.5.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.oculus": {
+      "version": "4.2.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.management": "4.4.0"
       },
       "url": "https://packages.unity.com"
     },
