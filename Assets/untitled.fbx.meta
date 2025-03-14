@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2a4fa8e0bd8113c4fa2dbaafc5c4bcf5
+guid: 9ad80c13be5790c4d9248bdd3676f863
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,7 +7,7 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ASYQSUIEK.001
+      name: ASYQSUIEK
     second: {fileID: 3646760509782696753, guid: 02e86724cdd7646ad9c7dd1cbb770fe7, type: 3}
   materials:
     materialImportMode: 2
