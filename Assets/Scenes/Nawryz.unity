@@ -50397,7 +50397,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1881749331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55277,7 +55277,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 543450653091428351}
   - {fileID: 7703994047561461647}
   - {fileID: 410741380}
   - {fileID: 937690833}
@@ -55285,6 +55284,7 @@ Transform:
   - {fileID: 59865386}
   - {fileID: 279442166}
   - {fileID: 2125226941}
+  - {fileID: 543450653091428351}
   - {fileID: 1737190548}
   - {fileID: 490370895}
   - {fileID: 119438030}
@@ -58996,7 +58996,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2528236800997308942
 GameObject:
   m_ObjectHideFlags: 0
@@ -60808,11 +60808,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1087475959237412491, guid: c5634c71e006a2c48bec1d9ca603d4a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3
+      value: 0.631
       objectReference: {fileID: 0}
     - target: {fileID: 1087475959237412491, guid: c5634c71e006a2c48bec1d9ca603d4a8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.874001
+      value: -9.839
       objectReference: {fileID: 0}
     - target: {fileID: 1087475959237412491, guid: c5634c71e006a2c48bec1d9ca603d4a8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -63051,6 +63051,7 @@ GameObject:
   - component: {fileID: 3707207164459264686}
   - component: {fileID: 9015514748804771246}
   - component: {fileID: 9015514748804771245}
+  - component: {fileID: 9015514748804771247}
   m_Layer: 0
   m_Name: Assyq
   m_TagString: Untagged
@@ -63106,6 +63107,43 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.07341102, y: 0.04720121, z: 0.05400502}
   m_Center: {x: -0.00025354326, y: 0.000012941649, z: 0.00075692695}
+--- !u!114 &9015514748804771247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015514748804771244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableView: {fileID: 893490130}
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &9020513149756600984
 Transform:
   m_ObjectHideFlags: 0
